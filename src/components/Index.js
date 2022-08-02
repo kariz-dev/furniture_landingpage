@@ -1,3 +1,4 @@
-import Navbar from './Navbar';
+import NavbarComp from './NavbarComp';
+import BannerComp from './BannerComp';
 
-export default { Navbar };
+export default { NavbarComp, BannerComp };
