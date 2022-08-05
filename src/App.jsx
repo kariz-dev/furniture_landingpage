@@ -1,12 +1,11 @@
-import BannerComp from './components/BannerComp';
-import { NavbarComp } from './components/NavbarComp';
+import "./App.css";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="App">
-      <NavbarComp />
-      <BannerComp />
-    </div>
+    <>
+      <Home />
+    </>
   );
 }
 
