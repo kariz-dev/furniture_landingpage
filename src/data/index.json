@@ -52,5 +52,42 @@
         }
       ]
     }
+  ],
+  "product" : [
+    {
+      "title" : "Product",
+      "subtitle" : "Our popular product",
+      "desc" : "Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non purus parturient.",
+      "card" : [
+        {
+          "img" : "/images/product-1.png",
+          "title" : "White Aesthetic Chair",
+          "desc" : "Combination of wood and wool",
+          "category" : "Chair",
+          "price" : "$63.47"
+        },
+        {
+          "img" : "/images/product-1.png",
+          "title" : "Bardono Smart Lamp",
+          "desc" : "Easy to use with bluetooth connection",
+          "category" : "Lamp",
+          "price" : "$62.23"
+        },
+        {
+          "img" : "/images/product-1.png",
+          "title" : "Sofa Empuk Banget",
+          "desc" : "Using kapuk randu material",
+          "category" : "Sofa",
+          "price" : "$58.39"
+        },
+        {
+          "img" : "/images/product-1.png",
+          "title" : "Wooden Bookshelf",
+          "desc" : "Combination of wood and wool",
+          "category" : "Living Room",
+          "price" : "$62.23"
+        }
+      ]
+    }
   ]
 }

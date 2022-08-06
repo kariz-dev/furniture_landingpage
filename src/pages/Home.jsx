@@ -1,6 +1,7 @@
 import BannerComp from "../components/BannerComp";
 import HeroComp from "../components/HeroComp";
 import ServicesComp from "../components/ServicesComp";
+import ProductComp from "../components/ProductComp";
 
 function Home() {
   return (
@@ -8,6 +9,7 @@ function Home() {
       <HeroComp />
       <BannerComp />
       <ServicesComp />
+      <ProductComp />
     </div>
   );
 }

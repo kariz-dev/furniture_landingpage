@@ -2,11 +2,12 @@ import styled from "styled-components";
 
 export const HeroWrapper = styled.div`
   text-align: center;
-  max-width: 650px;
+  max-width: 600px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 55px;
   position: relative;
+  z-index: 1;
 `;
 
 export const HeroTitle = styled.h1`
@@ -23,9 +24,10 @@ export const HeroDesc = styled.p`
 
 export const HeroStarVector = styled.img`
   position: absolute;
-  top: 65px;
+  top: 60px;
   right: 40px;
   width: 60px;
+  z-index: -1;
 `;
 
 export const HeroArrowVector = styled.img`
@@ -33,4 +35,5 @@ export const HeroArrowVector = styled.img`
   bottom: -100px;
   left: -165px;
   width: 250px;
+  z-index: -2;
 `;
