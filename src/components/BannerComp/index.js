@@ -4,7 +4,7 @@ import {
   BannerButton,
   BannerImg
 } from './styled';
-import banner from '../../assets/banner.png';
+import data from '../../data';
 
 function BannerComp() {
   return (
@@ -14,7 +14,9 @@ function BannerComp() {
         <BannerButton>Search</BannerButton>
       </BannerSearch>
 
-      <BannerImg src={banner} alt="Banner"/>
+      {data.banner.map((item, index) => (
+        <BannerImg key={index} src={item.img} alt={item.alt} />
+      ))}
     </>
   )
 }

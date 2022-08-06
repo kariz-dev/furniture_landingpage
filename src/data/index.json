@@ -22,5 +22,35 @@
       "title" : "Discover Furniture With High Quality Wood",
       "desc" : "Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non. Purus parturient viverra nunc, tortor sit laoreet. Quam tincidunt aliquam adipiscing tempor."
     }
+  ],
+  "banner" : [
+    {
+      "alt" : "Discover Furniture With High Quality Wood",
+      "img" : "/images/banner.png"
+    }
+  ],
+  "service" : [
+    {
+      "title" : "Benefits",
+      "subtitle" : "Benefits when using our services",
+      "desc" : "Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non purus parturient.",
+      "cards" : [
+        {
+          "img" : "/images/service-icon-1.png",
+          "title" : "Many Choices",
+          "desc" : "Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non."
+        },
+        {
+          "img" : "/images/service-icon-2.png",
+          "title" : "Fast and On Time",
+          "desc" : "Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non. "
+        },
+        {
+          "img" : "/images/service-icon-3.png",
+          "title" : "Affordable Price",
+          "desc" : "Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non. "
+        }
+      ]
+    }
   ]
 }
