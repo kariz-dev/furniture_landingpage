@@ -15,6 +15,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #fafaff;
   font-weight: 400;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 a {
