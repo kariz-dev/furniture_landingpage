@@ -17,18 +17,10 @@
       "link" : "about-us"
     }
   ],
-  "footer" : [
+  "hero" : [
     {
-      "name" : "test1",
-      "link" : "/"
-    },
-    {
-      "name" : "test2",
-      "link" : "/about"
-    },
-    {
-      "name" : "test3",
-      "link" : "/contact"
+      "title" : "Discover Furniture With High Quality Wood",
+      "desc" : "Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non. Purus parturient viverra nunc, tortor sit laoreet. Quam tincidunt aliquam adipiscing tempor."
     }
   ]
 }

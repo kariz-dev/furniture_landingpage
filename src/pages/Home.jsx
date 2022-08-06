@@ -1,8 +1,10 @@
+import HeroComp from "../components/HeroComp";
+
 function Home() {
   return (
-    <>
-      <h1 className="container">This Is Home</h1>
-    </>
+    <div className="container">
+      <HeroComp />
+    </div>
   );
 }
 
