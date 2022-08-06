@@ -1,11 +1,9 @@
-import NavbarComp from "../components/NavbarComp";
-
 function Home() {
-    return (
-      <>
-        <NavbarComp/>
-      </>
-    );
-  }
-  
-  export default Home;
+  return (
+    <>
+      <h1 className="container">This Is Home</h1>
+    </>
+  );
+}
+
+export default Home;

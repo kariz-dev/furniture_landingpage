@@ -1,7 +1,9 @@
+import { Link } from 'react-router-dom';
 import styled from "styled-components";
 
 export const Nav = styled.nav`
   padding: 20px 0;
+  border-bottom: 0.93951px solid #F5F2F0;
 `;
 
 export const NavWrapper = styled.div`
@@ -9,11 +11,7 @@ export const NavWrapper = styled.div`
   justify-content: space-between;
 `;
 
-export const NavLogoLink = styled.a`
-  
-`;
-
-export const NavLogo = styled.div``;
+export const NavLogo = styled(Link)``;
 
 export const NavLogoImg = styled.img`
   width: 80px;
@@ -24,6 +22,13 @@ export const NavMenu = styled.div`
   
 `;
 
-export const NavLink = styled.a`
+export const NavLink = styled(Link)`
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
 
+  padding: ${(props) => props.px ? "0 10px" : "0"};
+`;
+
+export const NavLinkBtn = styled.a`
+  margin-left: ${(props) => props.margin ? "14px" : "0"};
 `;

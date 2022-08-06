@@ -1,4 +1,6 @@
 import logo from "../../assets/logo.png";
+import { BsHandbag } from "react-icons/bs";
+import { BiUser } from "react-icons/bi";
 import {
   Nav,
   NavWrapper,
@@ -6,29 +8,28 @@ import {
   NavLogoImg,
   NavMenu,
   NavLink,
+  NavLinkBtn
 } from "./styled";
 
-import menus from "../../data/menus.js";
+import data from "../../data";
 
 function index() {
   return (
     <Nav>
       <NavWrapper className="container">
-        <NavLogo>
-          <NavLink href="/">
-            <NavLogoImg src={logo}></NavLogoImg>
-          </NavLink>
+        <NavLogo to="/">
+          <NavLogoImg src={logo}></NavLogoImg>
         </NavLogo>
         <NavMenu>
-          {menus.map((menu) => (
-            <NavLink key={menu} href={`/${menu.link}`}>
+          {data.menus.map((menu) => (
+            <NavLink px key={menu} to={`/${menu.link}`}>
               {menu.name}
             </NavLink>
           ))}
         </NavMenu>
         <NavMenu>
-          <NavLink href="/">test</NavLink>
-          <NavLink href="/">tests</NavLink>
+          <NavLinkBtn to="/"><BsHandbag /></NavLinkBtn>
+          <NavLinkBtn margin to="/"><BiUser /></NavLinkBtn>
         </NavMenu>
       </NavWrapper>
     </Nav>
