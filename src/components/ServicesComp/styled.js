@@ -20,6 +20,7 @@ export const ServiceSubtitle = styled.p`
 
 export const ServiceDesc = styled.p`
   width: 450px;
+  color: #AFADB5;
 `;
 
 export const ServiceRow = styled.div`
@@ -38,8 +39,7 @@ export const ServiceCard = styled.div`
   cursor: pointer;
 
   &:hover {
-    background: #518581;
-    color: #fff !important;
+    box-shadow: 0px 1.87902px 46.9755px rgba(175, 173, 181, 0.3);
   }
 `;
 
@@ -54,4 +54,6 @@ export const ServiceCardTitle = styled.h3`
   margin: 8px 0;
 `;
 
-export const ServiceCardDesc = styled.p``;
+export const ServiceCardDesc = styled.p`
+  color: #afadb5;
+`;

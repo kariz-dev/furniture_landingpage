@@ -26,6 +26,7 @@ export const ProductDesc = styled.p`
   margin-left: auto;
   margin-right: auto;
   width: 580px;
+  color: #AFADB5;
 `;
 
 export const ProductCards = styled.div`
@@ -45,7 +46,7 @@ export const ProductCard = styled.div`
   margin-bottom: 20px;
 
   &:hover {
-    box-shadow: 0px 1.87902px 46.9755px rgba(175, 173, 181, 0.5);
+    box-shadow: 0px 1.87902px 46.9755px rgba(175, 173, 181, 0.3);
   }
 `;
 

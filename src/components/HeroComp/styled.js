@@ -20,6 +20,7 @@ export const HeroDesc = styled.p`
   margin-top: 20px;
   font-weight: 400;
   line-height: 1.6em;
+  color: #AFADB5;
 `;
 
 export const HeroStarVector = styled.img`
