@@ -39,7 +39,7 @@ export const ServiceCard = styled.div`
 
   &:hover {
     background: #518581;
-    color: #fff; 
+    color: #fff !important;
   }
 `;
 
@@ -48,7 +48,7 @@ export const ServiceCardImg = styled.img`
   height: 50px;
 `;
 
-export const ServiceCardTitle = styled.p`
+export const ServiceCardTitle = styled.h3`
   font-size: 20px;
   font-weight: 600;
   margin: 8px 0;
