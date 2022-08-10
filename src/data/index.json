@@ -82,14 +82,6 @@
           "category" : "Sofa",
           "price" : "$58.39",
           "link" : "product-detail"
-        },
-        {
-        "img" : "/images/product/Sofa-Empuk-Banget.png",
-        "title" : "Wooden Bookshelf",
-        "desc" : "Combination of wood and wool",
-        "category" : "Living Room",
-        "price" : "$62.23",
-        "link" : "product-detail"
         }
       ]
     }

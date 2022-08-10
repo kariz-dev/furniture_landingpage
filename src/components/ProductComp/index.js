@@ -12,6 +12,9 @@ import {
   ProductCardTitle,
   ProductCardDesc,
   ProductCardPrice,
+  ProductRow,
+  ProductCol,
+  ProductCount,
 } from "./styled";
 import data from "../../data";
 
@@ -22,7 +25,9 @@ function ProductComp() {
         <ProductWrap key={index}>
           <ProductTitle>{item.title}</ProductTitle>
           <ProductSubtitle>{item.subtitle}</ProductSubtitle>
-          <ProductDesc>{item.desc}</ProductDesc>
+          <ProductDesc width="580px" marginTop="20px">
+            {item.desc}
+          </ProductDesc>
 
           <ProductCards>
             {item.card.map((item) => (
@@ -39,6 +44,32 @@ function ProductComp() {
               </ProductCardLink>
             ))}
           </ProductCards>
+
+          <ProductTitle align="left" marginTop="60px">
+            Our Product
+          </ProductTitle>
+
+          <ProductRow>
+            <ProductCol>
+              <ProductSubtitle align="left">
+                Crafted by talented and high quality material
+              </ProductSubtitle>
+            </ProductCol>
+            <ProductCol>
+              <ProductCount>
+                <ProductSubtitle>20+</ProductSubtitle>
+                <ProductDesc>Years Experience</ProductDesc>
+              </ProductCount>
+              <ProductCount>
+                <ProductSubtitle>483</ProductSubtitle>
+                <ProductDesc>Happy Client</ProductDesc>
+              </ProductCount>
+              <ProductCount>
+                <ProductSubtitle>150+</ProductSubtitle>
+                <ProductDesc>Project Finished</ProductDesc>
+              </ProductCount>
+            </ProductCol>
+          </ProductRow>
         </ProductWrap>
       ))}
     </>

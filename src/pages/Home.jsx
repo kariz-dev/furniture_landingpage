@@ -2,6 +2,7 @@ import BannerComp from "../components/BannerComp";
 import HeroComp from "../components/HeroComp";
 import ServicesComp from "../components/ServicesComp";
 import ProductComp from "../components/ProductComp";
+import ArticleComp from "../components/ArticleComp";
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
       <BannerComp />
       <ServicesComp />
       <ProductComp />
+      <ArticleComp />
     </div>
   );
 }

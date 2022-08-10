@@ -10,23 +10,28 @@ export const ProductTitle = styled.h2`
   font-size: 18px;
   font-weight: 600;
   text-align: center;
+  text-align: ${(props) => (props.align ? props.align : "center")};
+  margin-top: ${(props) => (props.marginTop ? props.marginTop : "0")};
 `;
 
 export const ProductSubtitle = styled.p`
   font-size: 40px;
-  line-height: 1em;
+  line-height: 1.2em;
   font-weight: 600;
   margin-top: 10px;
   text-align: center;
+  text-align: ${(props) => (props.align ? props.align : "auto")};
+  width: ${(props) => (props.width ? props.width : "auto")};
+  display: ${(props) => (props.display ? props.display : "auto")};
 `;
 
 export const ProductDesc = styled.p`
-  margin-top: 20px;
+  margin-top: ${(props) => (props.marginTop ? props.marginTop : "0")};
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  width: 580px;
-  color: #AFADB5;
+  width: ${(props) => (props.width ? props.width : "auto")};
+  color: #afadb5;
 `;
 
 export const ProductCards = styled.div`
@@ -83,4 +88,17 @@ export const ProductCardPrice = styled.p`
 
 export const ProductCardLink = styled(Link)`
   cursore: pointer;
+`;
+
+export const ProductCount = styled.span`
+  display: inline-block;
+`;
+
+export const ProductRow = styled.div`
+  display: flex;
+`;
+
+export const ProductCol = styled.div`
+  width: 50%;
+  justify-content: ${(props) => (props.justify ? props.justify : "center")};
 `;
